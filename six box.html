@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Six box nav</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .hostel{
+    height: 430px;
+    width: 450px;
+    border: 2px solid rgb(148, 126, 126);
+    display: flex;gap:20px;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: #dde5ed;
+    }
+        .floor{
+    display: flex;gap:20px;
+    padding-left: 10px;
+    }
+        .room{
+    border: 1px solid; 
+    padding-left: 10px; 
+    padding-right: 5px;     
+    border-radius: 20px;
+    background-color: #fcfaf4;
+    border-color: rgb(148, 126, 126);   
+    }
+        .icon{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    transition: all 2s ease 1s;
+    }
+        i{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    margin-top:0rem;
+    box-sizing: border-box;
+    padding: 0.49rem;
+    background-color: #8eaad6;
+    }
+        h2{
+    color: #1F2937;      
+    }
+        p{
+    color: #4B5563;
+    }
+    .i:hover{
+    transform: rotate(360deg);
+    }
+    </style> 
+</head>
+<body>
+    <div class="hostel">
+        <div class="floor">
+            <div class="room">
+                <div class="icon"><i class="fa-solid fa-house"></i></div>
+                <h2>Home</h2>
+                <p>This is your home icon. Go to home</p>
+            </div>
+            <div class="room">
+                <div class="icon"><i class="fa-solid fa-circle-info"></i></div>
+                <h2>About</h2>
+                <p>This is your about section. Go to About</p>
+            </div>
+            <div class="room">
+                <div class="icon"><i class="fa-solid fa-user"></i></div>
+                <h2>User</h2>
+                <p>This is your user dashboard. Go to dashboard</p>
+            </div>
+        </div>
+        <div class="floor">
+            <div class="room">
+                <div class="icon"><i class="fa-solid fa-cloud"></i></div>
+                <h2>Cloud</h2>
+                <p>This is your cloud icon. Access cloud from here</p>
+            </div>
+            <div class="room">
+                <div class="icon"><i class="fa-solid fa-bookmark"></i></div>
+                <h2>Bookmarks</h2>
+                <p>This is your bookmark icon. Access all your bookmarks from here</p>
+            </div>
+            <div class="room">
+                <div class="icon"><i class="fa-solid fa-comments"></i></div>
+                <h2>Contact us</h2>
+                <p>This is contact us icon. User can contact us through this icon</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
